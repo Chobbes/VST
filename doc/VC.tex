@@ -1365,9 +1365,9 @@ so the type of the witness will be
 To choose the witness, examine your actual parameter values
 (along with the precondition of the funspec) to see
 what witness would be consistent; here, we use
-\lstinline{(v_four,Ews,four_contents,4)} as follows:
+\lstinline{(gv _four,Ews,four_contents,4)} as follows:
 \begin{lstlisting}
-forward_call (v_four,Ews,four_contents,4).
+forward_call (gv _four,Ews,four_contents,4).
 \end{lstlisting}
 The \lstinline{forward_call} tactic (usually) leaves
 subgoals: you must prove that your current
